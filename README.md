@@ -156,3 +156,13 @@ optimization, use the task/model/seed rows listed in
 `replication_package/outputs/data/included_task_model_seed_triplets.csv`, with
 the full training budget used by the paper rather than the small `budget ($)=2`
 smoke-test value above.
+
+## License
+
+The root project is available under the [MIT License](LICENSE), copyright 2026
+Chenyang Yang. The MIT License is permissive but is not a public-domain
+dedication; redistributed copies or substantial portions must retain its
+copyright and permission notice.
+
+Git submodules, dependencies, datasets, and bundled third-party materials
+retain their own license terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
