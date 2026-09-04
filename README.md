@@ -97,6 +97,10 @@ The committed root `data/*.json` files are the task datasets. The experiment
 runner reads the task's `tasks/<task_id>/run*.yaml` config, which points to the
 corresponding raw data file through `data_path`.
 
+Most datasets are self-contained, for RefactorBench, clone [the source repo](https://github.com/microsoft/RefactorBench) and point the data file to the cloned path. 
+For WebArena, first set up environment following the instructions in [webarena-verified](https://github.com/ServiceNow/webarena-verified).
+For other tasks, set up environment following the custom build of [LOCA-bench](https://github.com/malusamayo/LOCA-bench).
+
 Example: run a small baseline experiment on `data/machine_operating_s2l.json`.
 
 1. Prepare and launch one baseline run.
